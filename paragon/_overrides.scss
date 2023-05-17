@@ -291,6 +291,17 @@ select.form-control {
   border-bottom: solid 1px $gray-100;
 }
 
+#root {
+  header {
+    height: 58pt !important;
+    .logo {
+      img {
+        height: 40px !important;
+      }
+    }
+  }
+}
+
 // Grid
 
 .container {
@@ -361,22 +372,6 @@ a.inline-link {
   text-decoration-color: rgba($link-color, .3);
   &:hover {
     text-decoration-color: rgba($link-color, 1);
-  }
-}
-
-// Temporary fix for search fields. See https://github.com/edx/brand-edx.org/pull/9#issuecomment-723208124
-
-.pgn__searchfield {
-  border-radius: 0 !important;
-  .btn {
-    background: $input-bg;
-    display: flex;
-  }
-  &.has-focus {
-    .btn {
-      background: $input-focus-bg;
-    }
-    border-color: $input-focus-border-color !important;
   }
 }
 
