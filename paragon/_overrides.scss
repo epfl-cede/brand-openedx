@@ -291,6 +291,15 @@ select.form-control {
   border-bottom: solid 1px $gray-100;
 }
 
+header {
+  height: 68px;
+  .logo {
+    img {
+      height: 40px;
+    }
+  }
+}
+
 // Grid
 
 .container {
