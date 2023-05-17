@@ -291,14 +291,11 @@ select.form-control {
   border-bottom: solid 1px $gray-100;
 }
 
-#root {
-  header {
-    height: 58pt;
-    .logo {
-      img {
-        #display: block;
-        height: 40px;
-      }
+header {
+  height: 68px;
+  .logo {
+    img {
+      height: 40px;
     }
   }
 }
